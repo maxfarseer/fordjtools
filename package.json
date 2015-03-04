@@ -1,0 +1,42 @@
+{
+  "name": "fordj",
+  "version": "0.0.1",
+  "description": "tools for DJ",
+  "main": "index.html",
+  "dependencies": {
+    "nw": "^0.12.0-rc1"
+  },
+  "devDependencies": {
+    "google-images": "^0.1.0",
+    "q": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw"
+  },
+  "window": {
+    "title": "for DJ - Your personnal helper in DJ world",
+    "toolbar": true,
+    "always-on-top": false,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "webkit": {
+    "plugin": false,
+    "java": false,
+    "page-cache": false
+  },
+  "keywords": [
+    "dj",
+    "music",
+    "djsoft"
+  ],
+  "author": "Max P",
+  "license": "ISC"
+}
